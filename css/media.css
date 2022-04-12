@@ -3,3 +3,17 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 960px) {
+	.list-item:nth-child(2) {
+		display: none;
+	}
+
+	.nav__list {
+		width: 200px;
+	}
+
+	.header__info-call {
+		margin-left: 21px;
+	}
+}

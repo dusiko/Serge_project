@@ -96,6 +96,7 @@ body {
   line-height: 16px;
   color: #FFFFFF;
   text-decoration: none;
+  white-space: nowrap;
 }
 .header__info-call {
   font-weight: 700;
@@ -117,6 +118,7 @@ body {
   color: #fff;
   margin-left: 30px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .info-basket__cash {

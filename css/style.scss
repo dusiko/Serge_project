@@ -105,6 +105,7 @@ body {
 		line-height: 16px;
 		color: #FFFFFF;
 		text-decoration: none;
+		white-space: nowrap;
 	}
 
 	&-call {
@@ -117,6 +118,7 @@ body {
 		background-color: transparent;
 		cursor: pointer;
 		margin-left: 25px;
+
 	}
 
 	&-basket {
@@ -128,6 +130,7 @@ body {
 		color: #fff;
 		margin-left: 30px;
 		cursor: pointer;
+		white-space: nowrap;
 	}
 }
 
