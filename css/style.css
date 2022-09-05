@@ -136,12 +136,16 @@ body {
 .list-item:last-child a:hover span {
   background-color: #EBBE4A;
 }
+.list-item:last-child a:hover {
+  border-bottom: none;
+}
 .list-item__link {
   text-decoration: none;
   color: #fff;
 }
 .list-item__link:hover {
   color: #EBBE4A;
+  border-bottom: 1px solid #EBBE4A;
 }
 
 .header__info {

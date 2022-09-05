@@ -16,12 +16,3 @@ function openMenuList() {
 		document.getElementsByTagName('body')[0].style.overflow = 'auto';
 	}
 }
-
-// .header__nav {
-// }
-// .nav__list {
-// }
-// .list-item {
-// }
-// .list-item__link {
-// }
