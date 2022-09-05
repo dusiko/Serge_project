@@ -121,6 +121,32 @@ body {
 }
 
 .list-item {
+	&:last-child {
+		width: 31px;
+
+		& a {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: justify;
+			-webkit-justify-content: space-between;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+
+			& span {
+				width: 5px;
+				height: 5px;
+				background-color: #fff;
+				border-radius: 50%;
+			}
+
+			&:hover span {
+				background-color: #EBBE4A;
+			}
+		}
+	}
+
 	&__link {
 		text-decoration: none;
 		color: #fff;
@@ -365,7 +391,6 @@ body {
 			font-weight: 400;
 			font-size: 17px;
 			line-height: 21px;
-			color: red;
 		}
 	}
 
